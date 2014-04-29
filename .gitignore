@@ -1,0 +1,33 @@
+# xcode noise
+build/
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+*.xcuserdatad
+
+#appcode index
+.idea
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
+#pomfort binary tmp stuff
+#filter everything except zip files in those dirs
+BinariesPomfort/*
+!BinariesPomfort/*.zip
+!BinariesPomfort/*.txt
+FiltersPomfort/*
+!FiltersPomfort/*.zip
+FrameworksThirdParty/*
+!FrameworksThirdParty/*.zip
+!FrameworksThirdParty/Includes
+!FrameworksThirdParty/externalDistribution
+FrameworksPomfort/*
+!FrameworksPomfort/*.zip
+_PomfortProjects/*
+
+*.xccheckout
