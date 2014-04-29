@@ -35,7 +35,6 @@
 		5F7AC1B218FC772E001FC53F /* liveGrade-mac-video-cut.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5F7AC1AC18FC772E001FC53F /* liveGrade-mac-video-cut.m4v */; };
 		5F7AC1B318FC772E001FC53F /* liveGrade-mac-video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5F7AC1AD18FC772E001FC53F /* liveGrade-mac-video.m4v */; };
 		5F7AC1B418FC772E001FC53F /* liveGradeRemote-video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5F7AC1AE18FC772E001FC53F /* liveGradeRemote-video.m4v */; };
-		5F7AC1B518FC772E001FC53F /* mastersThesis-video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5F7AC1AF18FC772E001FC53F /* mastersThesis-video.m4v */; };
 		5F7AC1B618FC772E001FC53F /* simpleSSH-video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 5F7AC1B018FC772E001FC53F /* simpleSSH-video.m4v */; };
 		5F81164518FC289A003C7C6C /* wwdc2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F81164318FC289A003C7C6C /* wwdc2014.png */; };
 		5F81164618FC289A003C7C6C /* wwdc2014@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F81164418FC289A003C7C6C /* wwdc2014@2x.png */; };
@@ -172,7 +171,6 @@
 		5F7AC1AC18FC772E001FC53F /* liveGrade-mac-video-cut.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "liveGrade-mac-video-cut.m4v"; sourceTree = "<group>"; };
 		5F7AC1AD18FC772E001FC53F /* liveGrade-mac-video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "liveGrade-mac-video.m4v"; sourceTree = "<group>"; };
 		5F7AC1AE18FC772E001FC53F /* liveGradeRemote-video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "liveGradeRemote-video.m4v"; sourceTree = "<group>"; };
-		5F7AC1AF18FC772E001FC53F /* mastersThesis-video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mastersThesis-video.m4v"; sourceTree = "<group>"; };
 		5F7AC1B018FC772E001FC53F /* simpleSSH-video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "simpleSSH-video.m4v"; sourceTree = "<group>"; };
 		5F81164318FC289A003C7C6C /* wwdc2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wwdc2014.png; sourceTree = "<group>"; };
 		5F81164418FC289A003C7C6C /* wwdc2014@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wwdc2014@2x.png"; sourceTree = "<group>"; };
@@ -607,7 +605,6 @@
 				5F7AC1AC18FC772E001FC53F /* liveGrade-mac-video-cut.m4v */,
 				5F7AC1AD18FC772E001FC53F /* liveGrade-mac-video.m4v */,
 				5F7AC1AE18FC772E001FC53F /* liveGradeRemote-video.m4v */,
-				5F7AC1AF18FC772E001FC53F /* mastersThesis-video.m4v */,
 				5F7AC1B018FC772E001FC53F /* simpleSSH-video.m4v */,
 			);
 			path = Videos;
@@ -803,7 +800,6 @@
 				5FB06C7718FB584A0035439D /* AppleIntern@2x.png in Resources */,
 				5FB06C7D18FB59B90035439D /* AVFoundation@2x.png in Resources */,
 				5FB06C9C18FB6E020035439D /* skydiving.png in Resources */,
-				5F7AC1B518FC772E001FC53F /* mastersThesis-video.m4v in Resources */,
 				5FB06C9F18FB6E020035439D /* snowboarding@2x.png in Resources */,
 				5FB06C9E18FB6E020035439D /* snowboarding.png in Resources */,
 				5FB06C6E18FB49060035439D /* outlineiPhone@2x.png in Resources */,
