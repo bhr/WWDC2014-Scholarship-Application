@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BHRProjectMediaViewController">
+            <connections>
+                <outlet property="contentView" destination="dEO-6e-XAG" id="eZb-Dl-WVC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="919" height="696"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MacBookProRetina.png" translatesAutoresizingMaskIntoConstraints="NO" id="rvR-Sf-07s">
+                    <rect key="frame" x="0.0" y="145" width="919" height="407"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dEO-6e-XAG">
+                    <rect key="frame" x="202" y="172" width="518" height="326"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="518" id="AqQ-fQ-OpN"/>
+                        <constraint firstAttribute="height" constant="326" id="DAE-AX-T5X"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rvR-Sf-07s" secondAttribute="trailing" id="0br-dl-ttH"/>
+                <constraint firstItem="rvR-Sf-07s" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LWH-XX-jWd"/>
+                <constraint firstAttribute="centerY" secondItem="rvR-Sf-07s" secondAttribute="centerY" id="V3z-3X-4b4"/>
+                <constraint firstAttribute="centerY" secondItem="dEO-6e-XAG" secondAttribute="centerY" constant="13" id="zBH-Ty-8Uc"/>
+                <constraint firstAttribute="centerX" secondItem="dEO-6e-XAG" secondAttribute="centerX" constant="-1" id="zKw-Pm-6em"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MacBookProRetina.png" width="688" height="407"/>
+    </resources>
+</document>

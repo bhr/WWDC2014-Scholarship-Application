@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>singlePageProjects</key>
+	<array>
+		<dict>
+			<key>videoName</key>
+			<string>simpleSSH-video.m4v</string>
+			<key>iconName</key>
+			<string>simpleSSH</string>
+			<key>description</key>
+			<string>SimpleSSH aims to make working with SSH servers more comfortable by giving the user a new way of interacting with the server.
+
+It features a simple user interface, user predefined SSH commands, logging and a file browser.
+
+SimpleSSH is beta and will be released in April, 2014.
+See http://simplessh.hirmer.me for more information.
+
+Years:		2014
+Org.:			Benedikt Hirmer
+My Work:		Idea
+			Concept
+			Development
+			Distribution
+			Marketing</string>
+			<key>subTitle</key>
+			<string>SSH Client tailored for the iPhone</string>
+			<key>title</key>
+			<string>SimpleSSH</string>
+			<key>type</key>
+			<integer>1</integer>
+			<key>backgroundColor</key>
+			<string>add5cb</string>
+		</dict>
+		<dict>
+			<key>videoName</key>
+			<string>mastersThesis-video1.m4v</string>
+			<key>iconName</key>
+			<string>mastersThesis</string>
+			<key>description</key>
+			<string>Typewriter meggings ethical fashion axe seitan. Umami fap occupy sriracha bespoke. Marfa High Life hella small batch, selvage fap viral typewriter Shoreditch. Actually pork belly wolf mumblecore small batch, sustainable DIY swag hella freegan gastropub deep v. Single-origin coffee Odd Future locavore Tonx, tofu literally raw denim next level High Life gentrify. Letterpress chambray pop-up Godard trust fund PBR. Pop-up ugh mustache, Etsy beard synth pork belly slow-carb distillery direct trade.
+
+Yr Banksy cornhole, swag gentrify beard freegan High Life ethical. Organic locavore photo booth, kale chips DIY salvia Austin pork belly wolf fashion axe Marfa banjo paleo tote bag Cosby sweater. Quinoa plaid messenger bag, paleo fashion axe gluten-free skateboard ethical post-ironic disrupt distillery High Life chia. Pour-over Williamsburg forage drinking vinegar chillwave, keytar +1 mustache banh mi umami mlkshk Thundercats meggings food truck. Organic pickled wayfarers Brooklyn, tattooed aesthetic yr salvia American Apparel gluten-free retro. Godard slow-carb asymmetrical master cleanse Vice, mlkshk forage typewriter. Street art drinking vinegar four loko ugh, organic lo-fi Odd Future bitters XOXO dreamcatcher farm-to-tabl</string>
+			<key>subTitle</key>
+			<string>Masters Thesis (in progress)</string>
+			<key>title</key>
+			<string>Primary Color Grading</string>
+			<key>type</key>
+			<integer>2</integer>
+			<key>backgroundColor</key>
+			<string>d0c99a</string>
+		</dict>
+		<dict>
+			<key>videoName</key>
+			<string>liveGrade-mac-video.m4v</string>
+			<key>iconName</key>
+			<string>LiveGradeMac</string>
+			<key>description</key>
+			<string>LiveGrade is a powerful Look and Color Management Solution for primary grading on the film set.
+LiveGrade gives full control over the colors from digital film cameras&apos; HD-SDI signals.
+
+LiveGrade is developed by Pomfort. I've been working with them as a freelance developer for almost four years.
+
+Years:		2012 - 2014
+Org.:			Pomfort GmbH
+My Work:		UI redesign for v2
+			Resizable grading panel
+			UI dimmer
+			More features</string>
+			<key>subTitle</key>
+			<string>Look and Color Management on film set</string>
+			<key>title</key>
+			<string>LiveGrade</string>
+			<key>type</key>
+			<integer>0</integer>
+			<key>backgroundColor</key>
+			<string>4a4c57</string>
+		</dict>
+		<dict>
+			<key>videoName</key>
+			<string>liveGradeRemote-video.m4v</string>
+			<key>iconName</key>
+			<string>liveGradeProRemote.jpg</string>
+			<key>description</key>
+			<string>LiveGrade Pro Remote allows users to control selected features of LiveGrade Pro for OS X.
+
+Years:		2014
+Org.:			Pomfort GmbH
+My Work:		UI Design
+			UI Implementation
+			More features
+		</string>
+			<key>subTitle</key>
+			<string>Remote Control for LiveGrade Pro</string>
+			<key>title</key>
+			<string>LiveGrade Pro Remote</string>
+			<key>type</key>
+			<integer>1</integer>
+			<key>backgroundColor</key>
+			<string>447144</string>
+		</dict>
+
+		<dict>
+			<key>videoName</key>
+			<string>idp-video.m4v</string>
+			<key>iconName</key>
+			<string>idp</string>
+			<key>description</key>
+			<string>The project is about design, implemetation and evaluation of UI controls for independent functions on the iPad.
+Goal was to evaluate existing and newly created UI controls that can be used for independent functions.
+
+Years:		2013
+Org.:			TUM, Chair for Ergonomics
+My Work:		Development of UI Controls
+			Automated evaluation workflow in app
+			In-App Tracking and Export of user input</string>
+			<key>subTitle</key>
+			<string>For independent functions</string>
+			<key>title</key>
+			<string>UI controls on the iPad</string>
+			<key>type</key>
+			<integer>3</integer>
+			<key>backgroundColor</key>
+			<string>b8d5e7</string>
+		</dict>
+
+	</array>
+	<key>otherProjects</key>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>AppleIntern</string>
+			<key>description</key>
+			<string>Implementation of prototypes for iPhoto Print Products</string>
+			<key>subTitle</key>
+			<string>iPhoto Print Products in team of Eric Hanson</string>
+			<key>title</key>
+			<string>Apple Internship</string>
+			<key>years</key>
+			<string>2013</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>ClipHouse</string>
+			<key>description</key>
+			<string>UI Design and Implementation</string>
+			<key>subTitle</key>
+			<string>RAW processing app for OS X for film productions</string>
+			<key>title</key>
+			<string>ClipHouse</string>
+			<key>years</key>
+			<string>2012 2014</string>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>MobilSchaltenAdmin</string>
+			<key>description</key>
+			<string>App Concept, Development and AppStore distribution
+			</string>
+			<key>subTitle</key>
+			<string>Management and configuration of GSM remote controls</string>
+			<key>title</key>
+			<string>Mobil Schalten Admin</string>
+			<key>years</key>
+			<string>2012</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>Silverstack</string>
+			<key>description</key>
+			<string>UI Implementation (partly),	Reporting Center, Playback View HUDs, User saveable column layouts, …</string>
+			<key>subTitle</key>
+			<string>Data management solution for digital film projects from Budget to RAW</string>
+			<key>title</key>
+			<string>Silverstack</string>
+			<key>years</key>
+			<string>2010
+2014</string>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>AudiF12</string>
+			<key>description</key>
+			<string>Team organization, management and coding support</string>
+			<key>subTitle</key>
+			<string>Coach for two SE teams</string>
+			<key>title</key>
+			<string>Audi F12 and iUnicase Speach</string>
+			<key>years</key>
+			<string>2012</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>AVFoundation</string>
+			<key>description</key>
+			<string>Holding a lecture unit on AVFoundation for iOS beginners</string>
+			<key>subTitle</key>
+			<string>Workshop</string>
+			<key>title</key>
+			<string>Audio and Video on iOS</string>
+			<key>years</key>
+			<string>2012</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>iUnicaseMod</string>
+			<key>description</key>
+			<string>UI concept, Data Model and Development of Features</string>
+			<key>subTitle</key>
+			<string>UML Modeling on the iPad</string>
+			<key>title</key>
+			<string>iUnicase Mod</string>
+			<key>years</key>
+			<string>2012</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>OnSet</string>
+			<key>description</key>
+			<string>Development of various features</string>
+			<key>subTitle</key>
+			<string>Information management on film set</string>
+			<key>title</key>
+			<string>onSet for iPad</string>
+			<key>years</key>
+			<string>2010</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+
+
+	</array>
+</dict>
+</plist>
