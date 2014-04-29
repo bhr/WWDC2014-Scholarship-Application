@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F10596118D2397C00F3EE2F /* NSFetchedResultsController+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F10596018D2397C00F3EE2F /* NSFetchedResultsController+BHRExtensions.m */; };
+		5F18A81D18CF235000C9D851 /* UIApplication+BHRVersionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F18A81C18CF235000C9D851 /* UIApplication+BHRVersionInfo.m */; };
+		5F55B08018BFCA86008F5E32 /* BHRAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFBB66918BFC286004A41B1 /* BHRAdditions.h */; };
+		5F55B08118BFCA86008F5E32 /* UIColor+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFBB66F18BFC286004A41B1 /* UIColor+BHRExtensions.h */; };
+		5F55B08218BFCA86008F5E32 /* UIImage+ImageEffects.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFBB67118BFC286004A41B1 /* UIImage+ImageEffects.h */; };
+		5F55B08318BFCA86008F5E32 /* NSArray+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFBB65718BFC0F0004A41B1 /* NSArray+BHRExtensions.h */; };
+		5F55B08418BFCA86008F5E32 /* NSObject+BHRClassesAggregation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFBB65918BFC0F0004A41B1 /* NSObject+BHRClassesAggregation.h */; };
+		5F55B08518BFCA86008F5E32 /* NSString+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFBB65B18BFC0F0004A41B1 /* NSString+BHRExtensions.h */; };
+		5F55B08618BFCA86008F5E32 /* NSString+BHRUID.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFBB65D18BFC0F0004A41B1 /* NSString+BHRUID.h */; };
+		5F55B08718BFCA86008F5E32 /* UIImage+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFBB65F18BFC0F0004A41B1 /* UIImage+BHRExtensions.h */; };
+		5F55B08818BFCA86008F5E32 /* UIView+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FFBB65418BFBE7B004A41B1 /* UIView+BHRExtensions.h */; };
+		5F63231F18F5CF1F00FC3F82 /* UIDevice+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F63231E18F5CF1F00FC3F82 /* UIDevice+BHRExtensions.m */; };
+		5FB82ED618E2217800A136B9 /* NSMutableAttributedString+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB82ED518E2217800A136B9 /* NSMutableAttributedString+BHRExtensions.m */; };
+		5FB82ED718E2226000A136B9 /* BHRKeyboardStateController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FBFEB4318DE063C0047EE5C /* BHRKeyboardStateController.h */; };
+		5FB82ED818E2226000A136B9 /* NSMutableAttributedString+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FB82ED418E2217800A136B9 /* NSMutableAttributedString+BHRExtensions.h */; };
+		5FBA1DE718BF86000077328F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBA1DE618BF86000077328F /* Foundation.framework */; };
+		5FBA1DF518BF86000077328F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBA1DF418BF86000077328F /* XCTest.framework */; };
+		5FBA1DF618BF86000077328F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBA1DE618BF86000077328F /* Foundation.framework */; };
+		5FBA1DF818BF86000077328F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBA1DF718BF86000077328F /* UIKit.framework */; };
+		5FBA1DFB18BF86000077328F /* libBHRExtensions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBA1DE318BF86000077328F /* libBHRExtensions.a */; };
+		5FBA1E0118BF86000077328F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FBA1DFF18BF86000077328F /* InfoPlist.strings */; };
+		5FBA1E0318BF86000077328F /* BHRExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA1E0218BF86000077328F /* BHRExtensionsTests.m */; };
+		5FBA1E1518BF87290077328F /* NSURL+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA1E0E18BF87290077328F /* NSURL+BHRExtensions.m */; };
+		5FBA1E1718BF87290077328F /* UITableView+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA1E1218BF87290077328F /* UITableView+BHRExtensions.m */; };
+		5FBA1E1818BF87290077328F /* UIView+BHRTableViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA1E1418BF87290077328F /* UIView+BHRTableViewExtensions.m */; };
+		5FBA1E1918BF87390077328F /* BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FBA1DEB18BF86000077328F /* BHRExtensions.h */; };
+		5FBA1E2018BFB58D0077328F /* NSURL+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FBA1E0D18BF87290077328F /* NSURL+BHRExtensions.h */; };
+		5FBA1E2218BFB58D0077328F /* UITableView+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FBA1E1118BF87290077328F /* UITableView+BHRExtensions.h */; };
+		5FBA1E2318BFB58D0077328F /* UIView+BHRTableViewExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FBA1E1318BF87290077328F /* UIView+BHRTableViewExtensions.h */; };
+		5FBE848D18C3AF7A00D40FCE /* BHRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE848C18C3AF7A00D40FCE /* BHRViewController.m */; };
+		5FBFEB4518DE063C0047EE5C /* BHRKeyboardStateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBFEB4418DE063C0047EE5C /* BHRKeyboardStateController.m */; };
+		5FC0203518C87F1D00ED7E5A /* NSDate+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC0203418C87F1D00ED7E5A /* NSDate+BHRExtensions.m */; };
+		5FC0203B18C8871500ED7E5A /* NSObject+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC0203A18C8871500ED7E5A /* NSObject+BHRExtensions.m */; };
+		5FC1EF6818D37ED300C33DA9 /* NSObject+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FC0203918C8871500ED7E5A /* NSObject+BHRExtensions.h */; };
+		5FC1EF6918D37ED300C33DA9 /* NSDate+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FC0203318C87F1D00ED7E5A /* NSDate+BHRExtensions.h */; };
+		5FC1EF6A18D37ED300C33DA9 /* UIApplication+BHRVersionInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F18A81B18CF235000C9D851 /* UIApplication+BHRVersionInfo.h */; };
+		5FC1EF6B18D37ED300C33DA9 /* NSFetchedResultsController+BHRExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F10595F18D2397C00F3EE2F /* NSFetchedResultsController+BHRExtensions.h */; };
+		5FC5F4FF18C3AFB8006F603E /* BHRViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FBE848B18C3AF7A00D40FCE /* BHRViewController.h */; };
+		5FFBB65618BFBE7B004A41B1 /* UIView+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBB65518BFBE7B004A41B1 /* UIView+BHRExtensions.m */; };
+		5FFBB66118BFC0F0004A41B1 /* NSArray+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBB65818BFC0F0004A41B1 /* NSArray+BHRExtensions.m */; };
+		5FFBB66218BFC0F0004A41B1 /* NSObject+BHRClassesAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBB65A18BFC0F0004A41B1 /* NSObject+BHRClassesAggregation.m */; };
+		5FFBB66318BFC0F0004A41B1 /* NSString+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBB65C18BFC0F0004A41B1 /* NSString+BHRExtensions.m */; };
+		5FFBB66418BFC0F0004A41B1 /* NSString+BHRUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBB65E18BFC0F0004A41B1 /* NSString+BHRUID.m */; };
+		5FFBB66518BFC0F0004A41B1 /* UIImage+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBB66018BFC0F0004A41B1 /* UIImage+BHRExtensions.m */; };
+		5FFBB67718BFC286004A41B1 /* BHRAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBB66A18BFC286004A41B1 /* BHRAdditions.m */; };
+		5FFBB67A18BFC286004A41B1 /* UIColor+BHRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBB67018BFC286004A41B1 /* UIColor+BHRExtensions.m */; };
+		5FFBB67B18BFC286004A41B1 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFBB67218BFC286004A41B1 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FBA1DF918BF86000077328F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FBA1DDB18BF86000077328F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FBA1DE218BF86000077328F;
+			remoteInfo = BHRExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5FBA1DE118BF86000077328F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5FB82ED718E2226000A136B9 /* BHRKeyboardStateController.h in CopyFiles */,
+				5FB82ED818E2226000A136B9 /* NSMutableAttributedString+BHRExtensions.h in CopyFiles */,
+				5FC1EF6818D37ED300C33DA9 /* NSObject+BHRExtensions.h in CopyFiles */,
+				5FC1EF6918D37ED300C33DA9 /* NSDate+BHRExtensions.h in CopyFiles */,
+				5FC1EF6A18D37ED300C33DA9 /* UIApplication+BHRVersionInfo.h in CopyFiles */,
+				5FC1EF6B18D37ED300C33DA9 /* NSFetchedResultsController+BHRExtensions.h in CopyFiles */,
+				5FC5F4FF18C3AFB8006F603E /* BHRViewController.h in CopyFiles */,
+				5F55B08018BFCA86008F5E32 /* BHRAdditions.h in CopyFiles */,
+				5F55B08118BFCA86008F5E32 /* UIColor+BHRExtensions.h in CopyFiles */,
+				5F55B08218BFCA86008F5E32 /* UIImage+ImageEffects.h in CopyFiles */,
+				5F55B08318BFCA86008F5E32 /* NSArray+BHRExtensions.h in CopyFiles */,
+				5F55B08418BFCA86008F5E32 /* NSObject+BHRClassesAggregation.h in CopyFiles */,
+				5F55B08518BFCA86008F5E32 /* NSString+BHRExtensions.h in CopyFiles */,
+				5F55B08618BFCA86008F5E32 /* NSString+BHRUID.h in CopyFiles */,
+				5F55B08718BFCA86008F5E32 /* UIImage+BHRExtensions.h in CopyFiles */,
+				5F55B08818BFCA86008F5E32 /* UIView+BHRExtensions.h in CopyFiles */,
+				5FBA1E2018BFB58D0077328F /* NSURL+BHRExtensions.h in CopyFiles */,
+				5FBA1E2218BFB58D0077328F /* UITableView+BHRExtensions.h in CopyFiles */,
+				5FBA1E2318BFB58D0077328F /* UIView+BHRTableViewExtensions.h in CopyFiles */,
+				5FBA1E1918BF87390077328F /* BHRExtensions.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F10595F18D2397C00F3EE2F /* NSFetchedResultsController+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchedResultsController+BHRExtensions.h"; sourceTree = "<group>"; };
+		5F10596018D2397C00F3EE2F /* NSFetchedResultsController+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchedResultsController+BHRExtensions.m"; sourceTree = "<group>"; };
+		5F18A81B18CF235000C9D851 /* UIApplication+BHRVersionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BHRVersionInfo.h"; sourceTree = "<group>"; };
+		5F18A81C18CF235000C9D851 /* UIApplication+BHRVersionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BHRVersionInfo.m"; sourceTree = "<group>"; };
+		5F63231D18F5CF1F00FC3F82 /* UIDevice+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+BHRExtensions.h"; sourceTree = "<group>"; };
+		5F63231E18F5CF1F00FC3F82 /* UIDevice+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FB82ED418E2217800A136B9 /* NSMutableAttributedString+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FB82ED518E2217800A136B9 /* NSMutableAttributedString+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FBA1DE318BF86000077328F /* libBHRExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBHRExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBA1DE618BF86000077328F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FBA1DEA18BF86000077328F /* BHRExtensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BHRExtensions-Prefix.pch"; sourceTree = "<group>"; };
+		5FBA1DEB18BF86000077328F /* BHRExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHRExtensions.h; sourceTree = "<group>"; };
+		5FBA1DF318BF86000077328F /* BHRExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHRExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBA1DF418BF86000077328F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5FBA1DF718BF86000077328F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5FBA1DFE18BF86000077328F /* BHRExtensionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BHRExtensionsTests-Info.plist"; sourceTree = "<group>"; };
+		5FBA1E0018BF86000077328F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FBA1E0218BF86000077328F /* BHRExtensionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHRExtensionsTests.m; sourceTree = "<group>"; };
+		5FBA1E0D18BF87290077328F /* NSURL+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FBA1E0E18BF87290077328F /* NSURL+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FBA1E1118BF87290077328F /* UITableView+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FBA1E1218BF87290077328F /* UITableView+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FBA1E1318BF87290077328F /* UIView+BHRTableViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHRTableViewExtensions.h"; sourceTree = "<group>"; };
+		5FBA1E1418BF87290077328F /* UIView+BHRTableViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHRTableViewExtensions.m"; sourceTree = "<group>"; };
+		5FBE848B18C3AF7A00D40FCE /* BHRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRViewController.h; sourceTree = "<group>"; };
+		5FBE848C18C3AF7A00D40FCE /* BHRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRViewController.m; sourceTree = "<group>"; };
+		5FBFEB4318DE063C0047EE5C /* BHRKeyboardStateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRKeyboardStateController.h; sourceTree = "<group>"; };
+		5FBFEB4418DE063C0047EE5C /* BHRKeyboardStateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRKeyboardStateController.m; sourceTree = "<group>"; };
+		5FC0203318C87F1D00ED7E5A /* NSDate+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FC0203418C87F1D00ED7E5A /* NSDate+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FC0203918C8871500ED7E5A /* NSObject+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FC0203A18C8871500ED7E5A /* NSObject+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FFBB65418BFBE7B004A41B1 /* UIView+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FFBB65518BFBE7B004A41B1 /* UIView+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FFBB65718BFC0F0004A41B1 /* NSArray+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FFBB65818BFC0F0004A41B1 /* NSArray+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FFBB65918BFC0F0004A41B1 /* NSObject+BHRClassesAggregation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BHRClassesAggregation.h"; sourceTree = "<group>"; };
+		5FFBB65A18BFC0F0004A41B1 /* NSObject+BHRClassesAggregation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BHRClassesAggregation.m"; sourceTree = "<group>"; };
+		5FFBB65B18BFC0F0004A41B1 /* NSString+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FFBB65C18BFC0F0004A41B1 /* NSString+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FFBB65D18BFC0F0004A41B1 /* NSString+BHRUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BHRUID.h"; sourceTree = "<group>"; };
+		5FFBB65E18BFC0F0004A41B1 /* NSString+BHRUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BHRUID.m"; sourceTree = "<group>"; };
+		5FFBB65F18BFC0F0004A41B1 /* UIImage+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FFBB66018BFC0F0004A41B1 /* UIImage+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FFBB66918BFC286004A41B1 /* BHRAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRAdditions.h; sourceTree = "<group>"; };
+		5FFBB66A18BFC286004A41B1 /* BHRAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRAdditions.m; sourceTree = "<group>"; };
+		5FFBB66F18BFC286004A41B1 /* UIColor+BHRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BHRExtensions.h"; sourceTree = "<group>"; };
+		5FFBB67018BFC286004A41B1 /* UIColor+BHRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BHRExtensions.m"; sourceTree = "<group>"; };
+		5FFBB67118BFC286004A41B1 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		5FFBB67218BFC286004A41B1 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FBA1DE018BF86000077328F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBA1DE718BF86000077328F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBA1DF018BF86000077328F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBA1DFB18BF86000077328F /* libBHRExtensions.a in Frameworks */,
+				5FBA1DF518BF86000077328F /* XCTest.framework in Frameworks */,
+				5FBA1DF818BF86000077328F /* UIKit.framework in Frameworks */,
+				5FBA1DF618BF86000077328F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FBA1DDA18BF86000077328F = {
+			isa = PBXGroup;
+			children = (
+				5FBA1DE818BF86000077328F /* BHRExtensions */,
+				5FBA1DFC18BF86000077328F /* BHRExtensionsTests */,
+				5FBA1DE518BF86000077328F /* Frameworks */,
+				5FBA1DE418BF86000077328F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FBA1DE418BF86000077328F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FBA1DE318BF86000077328F /* libBHRExtensions.a */,
+				5FBA1DF318BF86000077328F /* BHRExtensionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FBA1DE518BF86000077328F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FBA1DE618BF86000077328F /* Foundation.framework */,
+				5FBA1DF418BF86000077328F /* XCTest.framework */,
+				5FBA1DF718BF86000077328F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FBA1DE818BF86000077328F /* BHRExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				5FBA1DEB18BF86000077328F /* BHRExtensions.h */,
+				5FFBB67E18BFC28F004A41B1 /* Utilities */,
+				5FFBB66818BFC23E004A41B1 /* Categories */,
+				5FBA1DE918BF86000077328F /* Supporting Files */,
+			);
+			path = BHRExtensions;
+			sourceTree = "<group>";
+		};
+		5FBA1DE918BF86000077328F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FBA1DEA18BF86000077328F /* BHRExtensions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FBA1DFC18BF86000077328F /* BHRExtensionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FBA1E0218BF86000077328F /* BHRExtensionsTests.m */,
+				5FBA1DFD18BF86000077328F /* Supporting Files */,
+			);
+			path = BHRExtensionsTests;
+			sourceTree = "<group>";
+		};
+		5FBA1DFD18BF86000077328F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FBA1DFE18BF86000077328F /* BHRExtensionsTests-Info.plist */,
+				5FBA1DFF18BF86000077328F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FFBB66818BFC23E004A41B1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5FFBB65718BFC0F0004A41B1 /* NSArray+BHRExtensions.h */,
+				5FFBB65818BFC0F0004A41B1 /* NSArray+BHRExtensions.m */,
+				5FC0203318C87F1D00ED7E5A /* NSDate+BHRExtensions.h */,
+				5FC0203418C87F1D00ED7E5A /* NSDate+BHRExtensions.m */,
+				5F10595F18D2397C00F3EE2F /* NSFetchedResultsController+BHRExtensions.h */,
+				5F10596018D2397C00F3EE2F /* NSFetchedResultsController+BHRExtensions.m */,
+				5FFBB65918BFC0F0004A41B1 /* NSObject+BHRClassesAggregation.h */,
+				5FFBB65A18BFC0F0004A41B1 /* NSObject+BHRClassesAggregation.m */,
+				5FC0203918C8871500ED7E5A /* NSObject+BHRExtensions.h */,
+				5FC0203A18C8871500ED7E5A /* NSObject+BHRExtensions.m */,
+				5FFBB65B18BFC0F0004A41B1 /* NSString+BHRExtensions.h */,
+				5FFBB65C18BFC0F0004A41B1 /* NSString+BHRExtensions.m */,
+				5FFBB65D18BFC0F0004A41B1 /* NSString+BHRUID.h */,
+				5FFBB65E18BFC0F0004A41B1 /* NSString+BHRUID.m */,
+				5FBA1E0D18BF87290077328F /* NSURL+BHRExtensions.h */,
+				5FBA1E0E18BF87290077328F /* NSURL+BHRExtensions.m */,
+				5F18A81B18CF235000C9D851 /* UIApplication+BHRVersionInfo.h */,
+				5F18A81C18CF235000C9D851 /* UIApplication+BHRVersionInfo.m */,
+				5FFBB66F18BFC286004A41B1 /* UIColor+BHRExtensions.h */,
+				5FFBB67018BFC286004A41B1 /* UIColor+BHRExtensions.m */,
+				5FFBB65F18BFC0F0004A41B1 /* UIImage+BHRExtensions.h */,
+				5FFBB66018BFC0F0004A41B1 /* UIImage+BHRExtensions.m */,
+				5FFBB67118BFC286004A41B1 /* UIImage+ImageEffects.h */,
+				5FFBB67218BFC286004A41B1 /* UIImage+ImageEffects.m */,
+				5FBA1E1118BF87290077328F /* UITableView+BHRExtensions.h */,
+				5FBA1E1218BF87290077328F /* UITableView+BHRExtensions.m */,
+				5FFBB65418BFBE7B004A41B1 /* UIView+BHRExtensions.h */,
+				5FFBB65518BFBE7B004A41B1 /* UIView+BHRExtensions.m */,
+				5FBA1E1318BF87290077328F /* UIView+BHRTableViewExtensions.h */,
+				5FBA1E1418BF87290077328F /* UIView+BHRTableViewExtensions.m */,
+				5FB82ED418E2217800A136B9 /* NSMutableAttributedString+BHRExtensions.h */,
+				5FB82ED518E2217800A136B9 /* NSMutableAttributedString+BHRExtensions.m */,
+				5F63231D18F5CF1F00FC3F82 /* UIDevice+BHRExtensions.h */,
+				5F63231E18F5CF1F00FC3F82 /* UIDevice+BHRExtensions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		5FFBB67E18BFC28F004A41B1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5FFBB66918BFC286004A41B1 /* BHRAdditions.h */,
+				5FFBB66A18BFC286004A41B1 /* BHRAdditions.m */,
+				5FBE848B18C3AF7A00D40FCE /* BHRViewController.h */,
+				5FBE848C18C3AF7A00D40FCE /* BHRViewController.m */,
+				5FBFEB4318DE063C0047EE5C /* BHRKeyboardStateController.h */,
+				5FBFEB4418DE063C0047EE5C /* BHRKeyboardStateController.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FBA1DE218BF86000077328F /* BHRExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBA1E0618BF86000077328F /* Build configuration list for PBXNativeTarget "BHRExtensions" */;
+			buildPhases = (
+				5FBA1DDF18BF86000077328F /* Sources */,
+				5FBA1DE018BF86000077328F /* Frameworks */,
+				5FBA1DE118BF86000077328F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BHRExtensions;
+			productName = BHRExtensions;
+			productReference = 5FBA1DE318BF86000077328F /* libBHRExtensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5FBA1DF218BF86000077328F /* BHRExtensionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBA1E0918BF86000077328F /* Build configuration list for PBXNativeTarget "BHRExtensionsTests" */;
+			buildPhases = (
+				5FBA1DEF18BF86000077328F /* Sources */,
+				5FBA1DF018BF86000077328F /* Frameworks */,
+				5FBA1DF118BF86000077328F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FBA1DFA18BF86000077328F /* PBXTargetDependency */,
+			);
+			name = BHRExtensionsTests;
+			productName = BHRExtensionsTests;
+			productReference = 5FBA1DF318BF86000077328F /* BHRExtensionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FBA1DDB18BF86000077328F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = HIRMER.me;
+			};
+			buildConfigurationList = 5FBA1DDE18BF86000077328F /* Build configuration list for PBXProject "BHRExtensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FBA1DDA18BF86000077328F;
+			productRefGroup = 5FBA1DE418BF86000077328F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FBA1DE218BF86000077328F /* BHRExtensions */,
+				5FBA1DF218BF86000077328F /* BHRExtensionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FBA1DF118BF86000077328F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBA1E0118BF86000077328F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FBA1DDF18BF86000077328F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F18A81D18CF235000C9D851 /* UIApplication+BHRVersionInfo.m in Sources */,
+				5FBA1E1818BF87290077328F /* UIView+BHRTableViewExtensions.m in Sources */,
+				5FBE848D18C3AF7A00D40FCE /* BHRViewController.m in Sources */,
+				5FBA1E1718BF87290077328F /* UITableView+BHRExtensions.m in Sources */,
+				5F63231F18F5CF1F00FC3F82 /* UIDevice+BHRExtensions.m in Sources */,
+				5FFBB67B18BFC286004A41B1 /* UIImage+ImageEffects.m in Sources */,
+				5FFBB66118BFC0F0004A41B1 /* NSArray+BHRExtensions.m in Sources */,
+				5FB82ED618E2217800A136B9 /* NSMutableAttributedString+BHRExtensions.m in Sources */,
+				5FFBB66318BFC0F0004A41B1 /* NSString+BHRExtensions.m in Sources */,
+				5FC0203B18C8871500ED7E5A /* NSObject+BHRExtensions.m in Sources */,
+				5FBA1E1518BF87290077328F /* NSURL+BHRExtensions.m in Sources */,
+				5FFBB66418BFC0F0004A41B1 /* NSString+BHRUID.m in Sources */,
+				5FFBB67A18BFC286004A41B1 /* UIColor+BHRExtensions.m in Sources */,
+				5FFBB66218BFC0F0004A41B1 /* NSObject+BHRClassesAggregation.m in Sources */,
+				5FFBB66518BFC0F0004A41B1 /* UIImage+BHRExtensions.m in Sources */,
+				5FFBB67718BFC286004A41B1 /* BHRAdditions.m in Sources */,
+				5FFBB65618BFBE7B004A41B1 /* UIView+BHRExtensions.m in Sources */,
+				5FBFEB4518DE063C0047EE5C /* BHRKeyboardStateController.m in Sources */,
+				5FC0203518C87F1D00ED7E5A /* NSDate+BHRExtensions.m in Sources */,
+				5F10596118D2397C00F3EE2F /* NSFetchedResultsController+BHRExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBA1DEF18BF86000077328F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBA1E0318BF86000077328F /* BHRExtensionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FBA1DFA18BF86000077328F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FBA1DE218BF86000077328F /* BHRExtensions */;
+			targetProxy = 5FBA1DF918BF86000077328F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FBA1DFF18BF86000077328F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FBA1E0018BF86000077328F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FBA1E0418BF86000077328F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FBA1E0518BF86000077328F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FBA1E0718BF86000077328F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BHRExtensions.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHRExtensions/BHRExtensions-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5FBA1E0818BF86000077328F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BHRExtensions.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHRExtensions/BHRExtensions-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5FBA1E0A18BF86000077328F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHRExtensions/BHRExtensions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BHRExtensionsTests/BHRExtensionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5FBA1E0B18BF86000077328F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BHRExtensions/BHRExtensions-Prefix.pch";
+				INFOPLIST_FILE = "BHRExtensionsTests/BHRExtensionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FBA1DDE18BF86000077328F /* Build configuration list for PBXProject "BHRExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBA1E0418BF86000077328F /* Debug */,
+				5FBA1E0518BF86000077328F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBA1E0618BF86000077328F /* Build configuration list for PBXNativeTarget "BHRExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBA1E0718BF86000077328F /* Debug */,
+				5FBA1E0818BF86000077328F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBA1E0918BF86000077328F /* Build configuration list for PBXNativeTarget "BHRExtensionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBA1E0A18BF86000077328F /* Debug */,
+				5FBA1E0B18BF86000077328F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FBA1DDB18BF86000077328F /* Project object */;
+}
